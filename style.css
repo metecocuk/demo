@@ -1,7 +1,20 @@
 
 
+body{
+    background-color: black;
+}
+h1 {
+    color: aqua;
+    font-size: 36px;
 
-
+}
 p {
     color: violet;
+    font-size: 22px;
+}
+
+button {
+    background-color: blueviolet;
+    color: aquamarine;
+    font-size: 20px;
 }
