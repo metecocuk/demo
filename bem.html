@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM Naming for css</title>
+    <style>
+        .container{
+            width: 800px;
+            height: 800px;
+            background-color: ghostwhite;
+        }
+        .profile-card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .profile-card__img{
+            width: 200px;
+        }
+        .profile-card__heading{
+            font-size: 24px;
+        }
+        .profile-card__job-title{
+            font-size: 18px;
+        }
+        .profile-card__link_container{
+            margin-top: 25px;
+        }
+        .profile-card__link{
+            font-size: 15px;
+            color: red;
+            text-decoration: none;
+            padding: 7px;
+            background-color: aqua;
+        }
+        .profile-card__link--linkedin{
+            background-color: blue;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-card">
+            <img src="./images/nigga_cropped.jpg" alt="mete profile image" class="profile-card__img">
+            <h1 class="profile-card__heading">Mete Han</h1>
+            <h2 class="profile-card__job-title">Model</h2>
+            <div class="profile-card__link_container">
+            <a href="#" class="profile-card__link">Email</a>
+            <a href="#" class="profile-card__link profile-card__link--linkedin">Linkedin</a>
+            </div>  
+        </div>
+    </div>
+</body>
+</html>
